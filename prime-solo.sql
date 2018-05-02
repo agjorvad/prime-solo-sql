@@ -63,6 +63,10 @@ SELECT * FROM "accounts"
 WHERE "transactions_completed" < 5
 AND ("city" = 'miami' OR "city" = 'phoenix');
 
+DELETE FROM "accounts"
+WHERE "transactions_completed" < 5
+AND ("city" = 'miami' OR "city" = 'phoenix');
+
 SELECT * FROM "accounts"
 
 
